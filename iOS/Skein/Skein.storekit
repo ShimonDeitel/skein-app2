@@ -1,0 +1,28 @@
+{
+  "identifier" : "Skein",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "skein_pro",
+      "localizations" : [
+        {
+          "description" : "Skein Pro unlocks Project matching that flags which stash yarn has enough yardage for a pattern",
+          "displayName" : "Skein Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.shimondeitel.yarnstash.pro",
+      "referenceName" : "Skein Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
