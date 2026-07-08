@@ -10,16 +10,7 @@ struct Skein: Identifiable, Codable, Equatable {
     var dyeLot: String
     var notes: String
 
-    init(
-        id: UUID = UUID(),
-        createdAt: Date = Date(),
-        colorway: String = "",
-        fiber: String = "",
-        weight: String = "",
-        yardage: Double = 0,
-        dyeLot: String = "",
-        notes: String = ""
-    ) {
+    init(id: UUID = UUID(), createdAt: Date = Date(), colorway: String = "", fiber: String = "", weight: String = "", yardage: Double = 0, dyeLot: String = "", notes: String = "") {
         self.id = id
         self.createdAt = createdAt
         self.colorway = colorway
